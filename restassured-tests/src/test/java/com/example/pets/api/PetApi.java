@@ -43,6 +43,7 @@ public class PetApi {
 package com.example.pets.api;
 
 import com.example.pets.models.Pet;
+import io.qameta.allure.restassured.AllureRestAssured;
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
 
@@ -62,6 +63,7 @@ public class PetApi {
 
     public Response createPet(Pet pet) {
         return requestSpec()
+                .filter(new AllureRestAssured())
                 .body(pet)
                 .post("/pet")
                 .then()
@@ -72,6 +74,7 @@ public class PetApi {
 
     public Response getPetById(long petId) {
         return requestSpec()
+                .filter(new AllureRestAssured())
                 .pathParam("id", petId)
                 .get("/pet/{id}")
                 .then()
@@ -82,6 +85,7 @@ public class PetApi {
 
     public Response updatePet(Pet pet) {
         return requestSpec()
+                .filter(new AllureRestAssured())
                 .body(pet)
                 .put("/pet")
                 .then()
@@ -92,6 +96,7 @@ public class PetApi {
 
     public Response deletePet(long petId) {
         return requestSpec()
+                .filter(new AllureRestAssured())
                 .pathParam("id", petId)
                 .delete("/pet/{id}")
                 .then()

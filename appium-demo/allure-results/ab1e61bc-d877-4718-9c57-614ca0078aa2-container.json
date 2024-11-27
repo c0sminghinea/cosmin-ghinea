@@ -1,0 +1,1 @@
+{"uuid":"ab1e61bc-d877-4718-9c57-614ca0078aa2","name":"ExpenseTest.setUp","children":["a8025b44-e745-4cbf-ae47-602b7c3b295e"],"description":"","befores":[{"name":"setUp","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1732708836662,"stop":1732708840689}],"afters":[],"start":1732708836661,"stop":1732708840690}

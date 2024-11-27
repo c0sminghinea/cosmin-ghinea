@@ -10,7 +10,7 @@ import steps.HomePageSteps;
 import steps.OnboardingSteps;
 import utils.CustomAndroidDriver;
 
-@Listeners({io.qameta.allure.testng.AllureTestNg.class})
+
 public class ExpenseTest {
 
     private AppiumDriver driver;
