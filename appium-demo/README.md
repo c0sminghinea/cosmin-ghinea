@@ -68,7 +68,7 @@ The project uses Maven for dependency management. Key dependencies include:
    ```bash  
    mvn test  
    ```  
-3. Generate and view reports (if integrated):
+3. Generate and view reports:
    ```bash  
    allure serve allure-results  
    ```  

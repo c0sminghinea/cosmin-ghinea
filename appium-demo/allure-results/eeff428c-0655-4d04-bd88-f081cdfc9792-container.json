@@ -1,0 +1,1 @@
+{"uuid":"eeff428c-0655-4d04-bd88-f081cdfc9792","name":"IncomeTest.close","children":["66d4f086-b444-4799-b6d0-b3e946f05ebe"],"description":"","befores":[],"afters":[{"name":"close","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1732705996643,"stop":1732705996872}],"start":1732705996643,"stop":1732705996872}
