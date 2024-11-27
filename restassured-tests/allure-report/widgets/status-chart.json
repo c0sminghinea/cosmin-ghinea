@@ -1,1 +1,1 @@
-[]
+[{"uid":"2d7fb46a23cb1c6e","name":"Test deleting an existing pet","time":{"start":1732714219035,"stop":1732714220618,"duration":1583},"status":"passed","severity":"normal"},{"uid":"7cdfb3e6a06eb30d","name":"Test creating a new pet and retrieving it","time":{"start":1732714216594,"stop":1732714219026,"duration":2432},"status":"passed","severity":"normal"},{"uid":"c7d1559261ad2a8a","name":"Test updating an existing pet","time":{"start":1732714220622,"stop":1732714222216,"duration":1594},"status":"passed","severity":"normal"}]

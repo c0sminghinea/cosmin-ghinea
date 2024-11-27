@@ -1,0 +1,4 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","1583","Test deleting an existing pet","Surefire suite","Wed Nov 27 14:30:19 CET 2024","passed","Wed Nov 27 14:30:20 CET 2024","com.example.pets.tests.PetTests","Surefire test","com.example.pets.tests.PetTests","testDeletePet"
+"","2432","Test creating a new pet and retrieving it","Surefire suite","Wed Nov 27 14:30:16 CET 2024","passed","Wed Nov 27 14:30:19 CET 2024","com.example.pets.tests.PetTests","Surefire test","com.example.pets.tests.PetTests","testCreateAndGetPet"
+"","1594","Test updating an existing pet","Surefire suite","Wed Nov 27 14:30:20 CET 2024","passed","Wed Nov 27 14:30:22 CET 2024","com.example.pets.tests.PetTests","Surefire test","com.example.pets.tests.PetTests","testUpdatePet"
